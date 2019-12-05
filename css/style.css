@@ -99,3 +99,15 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+#service {
+  background-color: blue;
+  height: 350px;
+}
+.ms_service {
+  background-color: rgb(177, 230, 49);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.test_speed {
+  background-color: rgb(190, 177, 165);
+}
