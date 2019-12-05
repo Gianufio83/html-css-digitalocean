@@ -52,3 +52,20 @@ body {
   /* overflow: hidden;
   cursor: pointer; */
 }
+#deploy {
+  background-color: lightgrey;
+  height: 450px;
+}
+.ms_deploy {
+  background-color: rgb(233, 235, 147);
+  margin-bottom: 20px;
+}
+.words_list {
+  background-color: rgb(116, 198, 171);
+}
+.ms_icon {
+  background-color: rgb(69, 91, 55);
+}
+.descriptions {
+  background-color: rgb(41, 240, 28);
+}
