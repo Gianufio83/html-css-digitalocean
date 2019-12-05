@@ -115,3 +115,12 @@ body {
   background-color: lightblue;
   height: 350px;
 }
+#get_started {
+  background-color: blue;
+  padding-bottom: 30px;
+}
+.central_box {
+  margin:0 auto;
+  text-align: center;
+  background-color: red;
+}
