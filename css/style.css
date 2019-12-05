@@ -13,10 +13,10 @@ body {
   height: 100px;
   background-color: red;
 }
-.blocco_centrale {
+/* .blocco_centrale {
   height: 100px;
   background-color: blue;
-}
+} */
 .blocco_sinistra {
   height: 100px;
   background-color: orange;
@@ -28,12 +28,14 @@ body {
 }
 .area_destra {
   background-color: green;
-  width: 50%;
+  margin-right: 10px;
+  width:40%;
   height: 50px;
 }
 .area_sinistra {
   background-color: purple;
-  width: 50%;
+  margin-left: 10px;
+  width: 40%;
   height: 50px;
 }
 #first_section {
