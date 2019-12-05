@@ -23,3 +23,17 @@ body {
   width: 100%;
   height: 450px;
 }
+
+/* .jumbo_box {
+  display: inline;
+  -webkit-flex: 1;
+} */
+.area_destra {
+  background-color: green;
+  width: 50%;
+  height: 50px;
+}
+.area_sinistra {
+  background-color: purple;
+  width: 50%;
+  height: 50px;
