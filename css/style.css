@@ -68,12 +68,13 @@ body {
 }
 .jumbo_textarea {
   width: 80%;
+  padding: 0 auto;
   /* margin: 20px auto; */
   /* color:white; */
 }
 .area_destra {
-  margin-right: 10px;
-  width:40%;
+  /* margin-right: 10px; */
+  width:50%;
 }
 .area_destra h1 {
   font-size: 50px;
@@ -87,8 +88,8 @@ body {
 }
 .area_sinistra {
   background-color: white;
-  margin-left: 10px;
-  width: 40%;
+  /* margin-left: 10px; */
+  width: 50%;
   /* height: 50px; */
 }
 .area_sinistra h2 {
@@ -109,6 +110,32 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+#sign_up {
+  height: 20px;
+  /* text-align: left; */
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  /* border:1px solid lightgrey; */
+}
+.fab fa-google {
+  text-align: right;
+}
+#google_icon {
+  text-align: center;
+  width: 15%;
+  height: 20px;
+  line-height: 70px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+#pulsante_iscrizione {
+  border: 1px solid lightgrey;
+}
+#term {
+  margin-top: 10px;
+}
+/*  */
 /* .bg_blue p {
   color:white;
 } */
