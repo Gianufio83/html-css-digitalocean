@@ -16,10 +16,10 @@ body {
   font-weight: bold;
   line-height: 80px;
 }
-.blocco_sinistra {
-  /* height: 100px;
-  background-color: red; */
-}
+/* .blocco_sinistra {
+  height: 100px;
+  background-color: red;
+} */
 .blocco_sinistra img {
   width: 70%;
   margin-top:0px;
@@ -135,26 +135,50 @@ body {
 #term {
   margin-top: 10px;
 }
-/*  */
-/* .bg_blue p {
-  color:white;
-} */
+
 #first_section {
-  background-color: rgb(147, 214, 22);
-  height: 350px;
+  /* background-color: rgb(147, 214, 22); */
+  /* height: 350px; */
 }
-.ms_innovative {
-  background-color: rgb(184, 35, 77);
+/* first_section */
+.wrapper_60 {
+  width: 70%;
+  margin: 0 auto;
 }
-.box_img {
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: lightblue;
-  border-radius: 5px;
-  /* overflow: hidden;
-  cursor: pointer; */
+
+.ms_innovative p {
+  /* background-color: rgb(184, 35, 77); */
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
 }
+.docker {
+  width: 150px;
+}
+#gitlab {
+  width: 120px;
+}
+#slack {
+  width: 150px;
+}
+#hashicorp {
+  width: 180px;
+}
+#wework {
+  width: 170px;
+}
+#splunk {
+  width: 220px;
+}
+.ms_customer p {
+  text-align: center;
+  /* margin-left: 350px; */
+  color: blue;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* second-section */
 #deploy {
   background-color: lightgrey;
   height: 450px;
@@ -234,4 +258,14 @@ body {
   background-color: rgb(22, 136, 92);
   margin-top: 10px;
   margin-bottom: 10px;
+}
+/* media-query */
+@media screen and (min-width: 768px){
+  .area_destra {
+    width: 100%;
+  }
+  .area_sinistra {
+    width: 100%;
+  }
+
 }
