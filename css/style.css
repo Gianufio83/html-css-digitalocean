@@ -169,12 +169,14 @@ body {
   color: #031b4e;
   font-size: 40px;
   font-weight: bold;
+  ;
   /* background-color: rgb(233, 235, 147);
   margin-bottom: 20px; */
 }
 .ms_deploy p {
   color:rgba(3,27,78,.7);
   font-size: 20px;
+  
 }
 .words_list {
   border-left: 2px solid lightgrey;
