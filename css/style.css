@@ -26,10 +26,6 @@ body {
   line-height: 50px;
   vertical-align: middle;
 }
-/* .blocco_centrale {
-
-
-} */
 .blocco_destra .glyphicon {
   font-size: 30px;
   color: blue;
@@ -74,7 +70,7 @@ body {
 }
 .area_destra {
   /* margin-right: 10px; */
-  width:50%;
+  /* width:50%; */
 }
 .area_destra h1 {
   font-size: 50px;
@@ -89,7 +85,7 @@ body {
 .area_sinistra {
   background-color: white;
   /* margin-left: 10px; */
-  width: 50%;
+  /* width: 50%; */
   /* height: 50px; */
 }
 .area_sinistra h2 {
@@ -153,8 +149,11 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
-.docker {
-  width: 150px;
+.img_logo {
+  width:calc(100% / 2) -3px);
+}
+/* .docker {
+  width: ;
 }
 #gitlab {
   width: 120px;
@@ -170,7 +169,7 @@ body {
 }
 #splunk {
   width: 220px;
-}
+} */
 .ms_customer p {
   text-align: center;
   /* margin-left: 350px; */
@@ -180,8 +179,8 @@ body {
 }
 /* second-section */
 #deploy {
-  background-color: lightgrey;
-  height: 450px;
+  /* background-color: lightgrey;
+  height: 450px; */
 }
 .ms_deploy {
   background-color: rgb(233, 235, 147);
@@ -262,10 +261,15 @@ body {
 /* media-query */
 @media screen and (min-width: 768px){
   .area_destra {
-    width: 100%;
+    width: 50%;
   }
   .area_sinistra {
-    width: 100%;
+    width: 50%;
   }
+  .img_logo {
+    width: calc(100% / 24) - 300px);
+  }
+}
+@media screen and (min-width: 1200px) {
 
 }
