@@ -6,18 +6,23 @@ body {
   padding-top: 30px;
 }
 .header-top {
+  position: fixed;
   width: 100%;
   height: 80px;
   background-color: white;
-  ;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  font-weight: bold;
+  line-height: 80px;
 }
 .blocco_sinistra {
   /* height: 100px;
   background-color: red; */
 }
 .blocco_sinistra img {
-  width: 60%;
-  margin-top:20px;
+  width: 70%;
+  margin-top:0px;
   line-height: 50px;
   vertical-align: middle;
 }
@@ -32,10 +37,10 @@ body {
   line-height: 50px;
   vertical-align: middle;
 }
-.blocco_destra {
+/* .blocco_destra {
   width: 100%;
   margin-top:20px;
-  line-height: 50px;
+  line-height: 50px; */
   /* height: 100px;
   background-color: orange; */
 }
@@ -55,7 +60,7 @@ body {
   text-decoration: none;
 }
 .btn_white {
-  background-color: lightgrey;
+  background-color: white;
   color: lightblue;
   border: 1px solid blue;
   border-radius: 2px;
