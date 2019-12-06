@@ -6,21 +6,38 @@ body {
 }
 .header-top {
   width: 100%;
-  height: 200px;
-  background-color: lightgrey;
-}
-.blocco_destra {
   height: 100px;
-  background-color: red;
+  background-color: white;
+  ;
+}
+.blocco_sinistra {
+  /* height: 100px;
+  background-color: red; */
+}
+.blocco_sinistra img {
+  width: 50%;
+  margin-top:20px;
+  line-height: 50px;
+  vertical-align: middle;
 }
 /* .blocco_centrale {
   height: 100px;
   background-color: blue;
 } */
-.blocco_sinistra {
-  height: 100px;
-  background-color: orange;
+.blocco_destra .glyphicon {
+  font-size: 30px;
+  color: blue;
+  line-height: 50px;
+  vertical-align: middle;
 }
+.blocco_destra {
+  width: 50%;
+  margin-top:20px;
+  line-height: 50px;
+  /* height: 100px;
+  background-color: orange; */
+}
+
 .bg_blue {
   background-color: blue;
   width: 100%;
