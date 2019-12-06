@@ -133,8 +133,7 @@ body {
 }
 
 #first_section {
-  /* background-color: rgb(147, 214, 22); */
-  /* height: 350px; */
+
 }
 /* first_section */
 .wrapper_60 {
@@ -149,27 +148,11 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
-.img_logo {
+.img_logo img {
   width:calc(100% / 2) -3px);
+  display: inline-block;
 }
-/* .docker {
-  width: ;
-}
-#gitlab {
-  width: 120px;
-}
-#slack {
-  width: 150px;
-}
-#hashicorp {
-  width: 180px;
-}
-#wework {
-  width: 170px;
-}
-#splunk {
-  width: 220px;
-} */
+
 .ms_customer p {
   text-align: center;
   /* margin-left: 350px; */
@@ -182,16 +165,51 @@ body {
   /* background-color: lightgrey;
   height: 450px; */
 }
-.ms_deploy {
-  background-color: rgb(233, 235, 147);
-  margin-bottom: 20px;
+.ms_deploy h2 {
+  color: #031b4e;
+  font-size: 40px;
+  font-weight: bold;
+  /* background-color: rgb(233, 235, 147);
+  margin-bottom: 20px; */
+}
+.ms_deploy p {
+  color:rgba(3,27,78,.7);
+  font-size: 20px;
 }
 .words_list {
-  background-color: rgb(116, 198, 171);
+  border-left: 2px solid lightgrey;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: #031b4e;
+
+}
+
+.words_list li a {
+  font-size: 60px;
+  font-weight: bold;
+
+  text-decoration: none;
+  padding-left: 10px;
+}
+.words_list li a:hover {
+  color:#031b4e;
 }
 .ms_icon {
-  background-color: rgb(69, 91, 55);
-  margin-bottom: 10px;
+  /* background-color: rgb(69, 91, 55); */
+  margin-left: 30px;
+  color: blue;
+  width: 30%;
+}
+.deploy_box h3 {
+  margin-left: 30px;
+  color:#031b4e;
+  font-size: 30px;
+  font-weight: bold;
+}
+.deploy_box p {
+  margin-left: 40px
+  color:rgba(3,27,78,.7);
+  font-size: 20px;
 }
 .descriptions {
   background-color: rgb(41, 240, 28);
@@ -259,6 +277,13 @@ body {
   margin-bottom: 10px;
 }
 /* media-query */
+
+@media screen and (max-width: 768px) {
+  .img_logo img {
+    width: calc(100% / 6) - 10px);
+    display: inline-block;
+}
+
 @media screen and (min-width: 768px){
   .area_destra {
     width: 50%;
@@ -266,8 +291,7 @@ body {
   .area_sinistra {
     width: 50%;
   }
-  .img_logo {
-    width: calc(100% / 24) - 300px);
+
   }
 }
 @media screen and (min-width: 1200px) {
