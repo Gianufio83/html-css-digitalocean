@@ -26,23 +26,16 @@ body {
   line-height: 50px;
   vertical-align: middle;
 }
-.blocco_centrale {
+/* .blocco_centrale {
 
-  /* height: 100px;
-  background-color: blue; */
-}
+
+} */
 .blocco_destra .glyphicon {
   font-size: 30px;
   color: blue;
   line-height: 50px;
   vertical-align: middle;
 }
-/* .blocco_destra {
-  width: 100%;
-  margin-top:20px;
-  line-height: 50px; */
-  /* height: 100px;
-  background-color: orange; */
 }
 .menu ul li {
   margin-top: 10px;
@@ -65,23 +58,60 @@ body {
   border: 1px solid blue;
   border-radius: 2px;
 }
+/* jumbo */
 .bg_blue {
-  background-color: blue;
   width: 100%;
-  height: 450px;
+  /* height: 450px; */
+  margin-top: 80px;
+  padding: 80px 0;
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+}
+.jumbo_textarea {
+  width: 80%;
+  /* margin: 20px auto; */
+  /* color:white; */
 }
 .area_destra {
-  background-color: green;
   margin-right: 10px;
   width:40%;
-  height: 50px;
+}
+.area_destra h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.area_destra p {
+ font-size: 15px;
+ line-height: 20px;
+ color: white;
 }
 .area_sinistra {
-  background-color: purple;
+  background-color: white;
   margin-left: 10px;
   width: 40%;
-  height: 50px;
+  /* height: 50px; */
 }
+.area_sinistra h2 {
+  color:#031b4e;
+  font-size: 30px;
+  font-weight: bold;
+}
+.area_sinistra h3 {
+  color: rgb(80, 146, 233);
+  font-size: 30px;
+  font-weight: bold;
+}
+#create {
+  background-color: lightblue;
+  color:white;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* .bg_blue p {
+  color:white;
+} */
 #first_section {
   background-color: rgb(147, 214, 22);
   height: 350px;
