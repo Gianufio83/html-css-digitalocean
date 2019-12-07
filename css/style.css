@@ -290,13 +290,6 @@ body {
   font-size: 40px;
   font-weight: bold;
 }
-
-.test_speed {
-  /* background-color: rgb(190, 177, 165); */
-}
-/* .linea {
-  display: inline-block;
-} */
 .city_table {
   border:none;
 }
@@ -318,10 +311,13 @@ body {
 .velocità .velocity_icon {
   color:#00d7d2;
 }
+/* sistth-section */
+
 #development {
   background-color: lightblue;
-  height: 350px;
+  height: 500px;
 }
+
 #get_started {
   background-color: blue;
   padding-bottom: 30px;
