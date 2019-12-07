@@ -142,7 +142,6 @@ body {
 }
 
 .ms_innovative p {
-  /* background-color: rgb(184, 35, 77); */
   text-align: center;
   color: grey;
   font-size: 15px;
@@ -155,12 +154,12 @@ body {
 
 .ms_customer p {
   text-align: center;
-  /* margin-left: 350px; */
   color: blue;
   font-size: 15px;
   font-weight: bold;
 }
 /* second-section */
+
 #deploy {
   /* background-color: lightgrey;
   height: 450px; */
@@ -169,21 +168,18 @@ body {
   color: #031b4e;
   font-size: 40px;
   font-weight: bold;
-  ;
-  /* background-color: rgb(233, 235, 147);
-  margin-bottom: 20px; */
 }
+
 .ms_deploy p {
   color:rgba(3,27,78,.7);
   font-size: 20px;
-  
+
 }
 .words_list {
   border-left: 2px solid lightgrey;
   margin-left: 30px;
   margin-bottom: 30px;
   color: #031b4e;
-
 }
 
 .words_list li a {
@@ -197,7 +193,6 @@ body {
   color:#031b4e;
 }
 .ms_icon {
-  /* background-color: rgb(69, 91, 55); */
   margin-left: 30px;
   color: blue;
   width: 30%;
@@ -217,24 +212,36 @@ body {
   background-color: rgb(41, 240, 28);
   margin-top: 10px;
 }
-#designated {
+/* third-section */
+
+#designed {
   background-color: lightblue;
-  height: 350px;
-}
-.ms_designated {
-  background-color: rgb(233, 235, 147);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  /* height: 350px; */
 }
 .box_foto {
-  background-color: rgb(218, 165, 104);
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.screenshot_page {
+  width: 400px;
+}
+.box_foto p {
+  text-align: center;
+  color:#031b4e;
+  margin-top: 20px;
+}
 .button_slide {
-  background-color: rgb(71, 41, 54);
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.icon_circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  /* border: 2px solid lightblue; */
+  /* font-size: 20px;
+  text-align: center; */
 }
 #feautures {
   background-color: lightgrey;
