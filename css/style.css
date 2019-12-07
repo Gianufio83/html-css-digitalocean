@@ -276,17 +276,47 @@ body {
   width: 5px;
   color: blue;
 }
+/* fifth-section */
+
 #service {
   background-color: blue;
-  height: 350px;
+  color:white;
+  /* height: 350px; */
 }
 .ms_service {
-  background-color: rgb(177, 230, 49);
-  margin-top: 20px;
   margin-bottom: 20px;
 }
+.ms_service h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .test_speed {
-  background-color: rgb(190, 177, 165);
+  /* background-color: rgb(190, 177, 165); */
+}
+/* .linea {
+  display: inline-block;
+} */
+.city_table {
+  border:none;
+}
+.sigla {
+  border: none;
+  font-size: 13px;
+  padding: 11px 10px 10px;
+  vertical-align: middle;
+}
+.città {
+  border: none;
+  font-size: 13px;
+  padding: 11px 10px 10px;
+  vertical-align: middle;
+}
+.velocità a {
+  color:#00d7d2;
+}
+.velocità .velocity_icon {
+  color:#00d7d2;
 }
 #development {
   background-color: lightblue;
