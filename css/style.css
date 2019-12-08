@@ -362,13 +362,28 @@ body {
 }
 .icon_social {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin-top: 10px;
-
 }
 .cambio_colore {
   color: hsla(0,0%,100%,.5);
+}
+.box_lists {
+  color:white;
+  /* color:hsla(0,0%,100%,.5); */
+}
+.box_lists li {
+  margin-bottom: 10px;
+}
+.box_lists li:first-child {
+  font-weight: bold;
+  font-size: 25px;
+  color:white;
+}
+.box_lists li a {
+  font-size: 20px;
+
 }
 .box_contacts {
   background-color: rgb(22, 136, 92);
