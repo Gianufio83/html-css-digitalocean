@@ -348,9 +348,27 @@ body {
   font-size: 80px;
   font-weight: bold;
 }
-
+/* footer */
 #footer {
-  background-color: rgb(17, 9, 55);
+  background-color: #010e28;
+}
+.info_contacts {
+  color:hsla(0,0%,100%,.5);
+}
+.logo_footer {
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+}
+.icon_social {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+
+}
+.cambio_colore {
+  color: hsla(0,0%,100%,.5);
 }
 .box_contacts {
   background-color: rgb(22, 136, 92);
