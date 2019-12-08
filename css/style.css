@@ -146,6 +146,7 @@ body {
 .img_logo img {
   width:calc(100% / 2) -3px);
   display: inline-block;
+  
 }
 
 .ms_customer p {
@@ -235,9 +236,6 @@ body {
   width: 30px;
   height: 30px;
   line-height: 30px;
-  /* border: 2px solid lightblue; */
-  /* font-size: 20px;
-  text-align: center; */
 }
 /* fourth-section */
 
@@ -403,6 +401,7 @@ body {
   .img_logo img {
     width: calc(100% / 6) - 10px);
     display: inline-block;
+
 }
 
 @media screen and (min-width: 768px){
