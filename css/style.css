@@ -152,10 +152,7 @@ ul.tanti_loghi img {
 }
 /* second-section */
 
-#deploy {
-  /* background-color: lightgrey;
-  height: 450px; */
-}
+
 .ms_deploy h2 {
   color: #031b4e;
   font-size: 40px;
@@ -200,16 +197,12 @@ ul.tanti_loghi img {
   color:rgba(3,27,78,.7);
   font-size: 20px;
 }
-.descriptions {
-  background-color: rgb(41, 240, 28);
-  margin-top: 10px;
-}
 /* third-section */
-
 #designed {
   background-color: lightblue;
-  /* height: 350px; */
+  width: 100%;
 }
+
 .box_foto {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -232,7 +225,15 @@ ul.tanti_loghi img {
   height: 30px;
   line-height: 30px;
 }
+
+/* .descriptions {
+  background-color: rgb(41, 240, 28);
+  margin-top: 10px;
+} */
+
+
 /* fourth-section */
+
 
 #feautures {
   background-color: white;
@@ -259,7 +260,6 @@ ul.tanti_loghi img {
   text-align: center;
   color: blue;
   font-size: 20px;
-  /* font-weight: bold; */
 }
 .small_icon {
   width: 5px;
@@ -270,8 +270,8 @@ ul.tanti_loghi img {
 #service {
   background-color: blue;
   color:white;
-  /* height: 350px; */
 }
+
 .ms_service {
   margin-bottom: 20px;
 }
@@ -304,8 +304,8 @@ ul.tanti_loghi img {
 
 #development {
   background-color: lightblue;
-  /* height: 500px; */
 }
+
 .screen_arrow_ {
   font-size: 80px;
   line-height: 40px;
@@ -315,26 +315,22 @@ ul.tanti_loghi img {
   color:blue;
   font-size: 30px;
 }
-.box_foto {
+/* .box_foto {
   width: 100%;
-}
+} */
 .screen_arrow:before,
 .screen_arrow:after {
   content: '';
   display: inline-block;
   width: 20%;
-  /* height: 4px; */
-  /* margin: 0 20px; */
-  /* vertical-align: middle; */
-
 }
+
 /* seventh-section */
 #get_started {
   background-color: blue;
   padding-bottom: 30px;
 }
 .central_box {
-  /* margin:0 auto; */
   color:white;
   font-size: 80px;
   font-weight: bold;
